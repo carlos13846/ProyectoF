@@ -1,0 +1,116 @@
+<link rel="stylesheet" href="/stilos/style.css">
+<link rel="stylesheet" href="/stilos/contacto.css">
+<header>
+    <a href="/html/index.html" class="logo">
+    <div class="logo-contenedor">
+    <img src="/imagenes/logo.png" alt="Logo">
+    </div>
+     </a>
+    <nav class="menu">
+      <ul>
+        <li><a href="/html/index.html">Inicio</a></li>
+        <li class="productos-dropdown">
+          <a href="#" class="productos-link">Productos ▼</a>
+          <div class="productos-submenu">
+            <a href="/html/ropa.html" class="submenu-item">
+              <span class="submenu-icon">👕</span>
+              <div class="submenu-content">
+                <h4>Ropa</h4>
+                <p>Variedad de prendas</p>
+              </div>
+            </a>
+            <a href="/html/jeans.html" class="submenu-item">
+              <span class="submenu-icon">👖</span>
+              <div class="submenu-content">
+                <h4>Jeans</h4>
+                <p>Estilo casual</p>
+              </div>
+            </a>
+            <a href="/html/zapatos.html" class="submenu-item">
+              <span class="submenu-icon">👟</span>
+              <div class="submenu-content">
+                <h4>Zapatos</h4>
+                <p>Elegancia y confort</p>
+              </div>
+            </a>
+            <a href="/html/camisetas.html" class="submenu-item">
+              <span class="submenu-icon">🎽</span>
+              <div class="submenu-content">
+                <h4>Camisetas</h4>
+                <p>Básicos esenciales</p>
+              </div>
+            </a>
+          </div>
+        </li>
+        <li><a href="/html/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+   <div class="acciones">
+  <a href="#" class="carrito">🛒</a>
+  <div class="usuario" onclick="toggleSubmenu()">
+    <span>👤</span>
+    <div class="submenu" id="submenu">
+      <a href="/html/login.html">Iniciar Sesión</a>
+      <a href="/html/registro.html">Registrarse</a>
+    </div>
+  </div>
+</div>
+
+  </header>
+
+<section class="contacto">
+  <h2 class="contacto-titulo">Contáctanos y recibe tu cotización gratis</h2>
+  <div class="contacto-flex">
+    <div class="contacto-mapa">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.997964393019!2d-75.574167!3d6.208317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e46827e7b7e0e6b%3A0x8e3f99a16d84793b!2sCra.%2043A%20%237-50%2C%20El%20Poblado%2C%20Medell%C3%ADn%2C%20Antioquia%2C%20Colombia!5e0!3m2!1ses!2sco!4v1735101234567!5m2!1ses!2sco" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="contacto-formulario">
+      <form class="contact-form">
+        <div class="form-descripcion">
+          <p>Déjanos tus datos y cuéntanos qué necesitas. Te responderemos lo más pronto posible con una cotización personalizada.</p>
+        </div>
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <input type="email" name="email" placeholder="Correo electrónico" required>
+        <input type="tel" name="telefono" placeholder="Teléfono" required>
+        <textarea name="mensaje" placeholder="¿Qué necesitas?" required></textarea>
+        <button type="submit">Enviar mensaje</button>
+      </form>
+      <div class="contact-info">
+        <p><strong>Dirección:</strong> Cra. 43A #7-50, Medellín, Colombia</p>
+        <p><strong>Teléfono:</strong> +57 300 1234567</p>
+        <p><strong>Email:</strong> contacto@bossstyle.com</p>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="footer-center-text" style="margin-top:0.5rem; display:flex; align-items:center; justify-content:center; height:auto;">
+      <p>BossStyle es tu tienda de ropa masculina con lo último en moda de marcas reconocidas como Gucci, Boss, Levi’s, Nike y más.<br>Calidad y estilo para el hombre moderno.</p>
+  </div>
+  <div class="footer-row" style="margin-top:0; display:flex; align-items:center; width:100%;">
+  <div class="footer-enlaces footer-col-left" style="display:flex; flex-direction:column; align-items:flex-start; padding-left:0; margin-left:-6rem;">
+  <ul class="footer-accesos-list">
+      <li><a class="footer-acceso-link" href="/html/ropa.html">Productos</a></li>
+      <li><a class="footer-acceso-link" href="/html/jeans.html">Jeans</a></li>
+      <li><a class="footer-acceso-link" href="/html/zapatos.html">Zapatos</a></li>
+      <li><a class="footer-acceso-link" href="/html/camisetas.html">Camisetas</a></li>
+      <li><a class="footer-acceso-link" href="#">Política y Privacidad</a></li>
+      <li><a class="footer-acceso-link" href="/html/sobrenosotros.html">Sobre Nosotros</a></li>
+    </ul>
+   
+  </div>
+  <div class="footer-social footer-col-right" style="align-items:flex-end; text-align:right; margin-right:-6rem;">
+        <span class="footer-titulo">Redes sociales</span>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=Carlos" target="_blank"><img src="/imagenes/facebook.png" alt="Facebook"> Facebook</a>
+        <a href="https://api.whatsapp.com/send?phone=573016692939&text=%F0%9F%98%80%F0%9F%98%80" target="_blank"><img src="/imagenes/whatsapp.png" alt="WhatsApp"> WhatsApp</a>
+        <a href="https://msng.link/o?carlos173782=ig" target="_blank"><img src="/imagenes/gorjeo.png" alt="Instagram"> Instagram</a>
+      </div>
+  </div>
+  <hr class="footer-hr">
+  <div class="footer-copy">
+      Todos los derechos reservados &copy; 2025 BossStyle
+  </div>
+</footer>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+

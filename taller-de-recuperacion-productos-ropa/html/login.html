@@ -1,0 +1,117 @@
+<header class="landing-header">
+  <a href="/html/index.html" class="logo">
+    <div class="logo-contenedor">
+      <img src="/imagenes/logo.png" alt="Logo BossStyle">
+    </div>
+  </a>
+  <nav class="menu">
+    <ul>
+      <li><a href="/html/index.html">Inicio</a></li>
+      <li class="productos-dropdown">
+        <a href="#" class="productos-link">Productos ▼</a>
+        <div class="productos-submenu">
+          <a href="/html/ropa.html" class="submenu-item">
+            <span class="submenu-icon">👕</span>
+            <div class="submenu-content">
+              <h4>Ropa</h4>
+              <p>Variedad de prendas</p>
+            </div>
+          </a>
+          <a href="/html/jeans.html" class="submenu-item">
+            <span class="submenu-icon">👖</span>
+            <div class="submenu-content">
+              <h4>Jeans</h4>
+              <p>Estilo casual</p>
+            </div>
+          </a>
+          <a href="/html/zapatos.html" class="submenu-item">
+            <span class="submenu-icon">👟</span>
+            <div class="submenu-content">
+              <h4>Zapatos</h4>
+              <p>Elegancia y confort</p>
+            </div>
+          </a>
+          <a href="/html/camisetas.html" class="submenu-item">
+            <span class="submenu-icon">🎽</span>
+            <div class="submenu-content">
+              <h4>Camisetas</h4>
+              <p>Básicos esenciales</p>
+            </div>
+          </a>
+        </div>
+      </li>
+      <li><a href="/html/contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+  <div class="acciones">
+    <a href="#" class="carrito">🛒</a>
+    <div class="usuario" onclick="toggleSubmenu()">
+      <span>👤</span>
+      <div class="submenu" id="submenu">
+        <a href="/html/login.html">Iniciar Sesión</a>
+        <a href="/html/registro.html">Registrarse</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+
+
+<link rel="stylesheet" href="/stilos/style.css">
+<link rel="stylesheet" href="/stilos/formulario.css">
+
+
+
+
+<main class="login-main" style="min-height:calc(100vh - 220px); display:flex; justify-content:center; align-items:center; margin-top:80px;">
+  <section class="formulario-contenedor animate-fadein">
+    <h2 class="form-titulo">Iniciar sesión</h2>
+    <form action="/login" method="POST" class="formulario-login">
+      <label for="email">Correo electrónico</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Contraseña</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit" class="form-btn">Entrar</button>
+
+      <p class="form-link">¿No tienes una cuenta? <a href="/html/registro.html">Regístrate</a></p>
+    </form>
+  </section>
+</main>
+
+
+<footer class="site-footer">
+  <!-- Botón flotante WhatsApp -->
+  <a href="https://api.whatsapp.com/send?phone=573016692939&text=Hola%20BossStyle!%20Quiero%20más%20información." class="whatsapp-float" target="_blank" title="Chatea por WhatsApp">
+    <img src="/imagenes/whatsapp.png" alt="WhatsApp">
+  </a>
+  <div class="footer-center-text" style="margin-top:0.5rem; display:flex; align-items:center; justify-content:center; height:auto;">
+      <p>BossStyle es tu tienda de ropa masculina con lo último en moda de marcas reconocidas como Gucci, Boss, Levi’s, Nike y más.<br>Calidad y estilo para el hombre moderno.</p>
+  </div>
+  <div class="footer-row">
+  <div class="footer-enlaces footer-col-left">
+  <ul class="footer-accesos-list">
+      <li><a class="footer-acceso-link" href="/html/ropa.html">Productos</a></li>
+      <li><a class="footer-acceso-link" href="/html/jeans.html">Jeans</a></li>
+      <li><a class="footer-acceso-link" href="/html/zapatos.html">Zapatos</a></li>
+      <li><a class="footer-acceso-link" href="/html/camisetas.html">Camisetas</a></li>
+      <li><a class="footer-acceso-link" href="#">Política y Privacidad</a></li>
+      <li><a class="footer-acceso-link" href="/html/sobrenosotros.html">Sobre Nosotros</a></li>
+    </ul>
+   
+  </div>
+  <div class="footer-social footer-col-right">
+        <span class="footer-titulo">Redes sociales</span>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=Carlos" target="_blank"><img src="/imagenes/facebook.png" alt="Facebook"> Facebook</a>
+        <a href="https://api.whatsapp.com/send?phone=573016692939&text=%F0%9F%98%80%F0%9F%98%80" target="_blank"><img src="/imagenes/whatsapp.png" alt="WhatsApp"> WhatsApp</a>
+        <a href="https://msng.link/o?carlos173782=ig" target="_blank"><img src="/imagenes/gorjeo.png" alt="Instagram"> Instagram</a>
+      </div>
+  </div>
+  <hr class="footer-hr">
+  <div class="footer-copy">
+      Todos los derechos reservados &copy; 2025 BossStyle 
+  </div>
+</footer>
